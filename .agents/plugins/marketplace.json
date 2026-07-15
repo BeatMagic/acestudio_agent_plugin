@@ -1,0 +1,16 @@
+{
+  "name": "acestudio",
+  "interface": {
+    "displayName": "ACE Studio"
+  },
+  "plugins": [
+    {
+      "name": "acestudio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/acestudio"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

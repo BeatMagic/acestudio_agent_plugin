@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "acestudio": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/launch-ace-mcp.sh"
+    }
+  }
+}

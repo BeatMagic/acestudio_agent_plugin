@@ -1,0 +1,7 @@
+{
+  "name": "acestudio",
+  "version": "0.1.0",
+  "description": "Control a running ACE Studio (AI vocal synthesis DAW) from Codex: tracks, clips, notes, lyrics, singers, playback.",
+  "skills": "./skills/",
+  "mcpServers": "./mcp-codex.json"
+}

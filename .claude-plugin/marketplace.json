@@ -1,0 +1,18 @@
+{
+  "name": "acestudio",
+  "description": "Official ACE Studio plugins for Claude Code — control the ACE Studio DAW from your agent.",
+  "owner": {
+    "name": "TimeDomain",
+    "url": "https://www.acestudio.ai"
+  },
+  "plugins": [
+    {
+      "name": "acestudio",
+      "displayName": "ACE Studio",
+      "source": "./plugins/acestudio",
+      "description": "Control a running ACE Studio (AI vocal synthesis DAW): tracks, clips, notes, lyrics, singers, playback.",
+      "category": "productivity",
+      "keywords": ["acestudio", "daw", "music", "vocal-synthesis", "midi", "mcp"]
+    }
+  ]
+}
