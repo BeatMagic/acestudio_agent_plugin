@@ -1,6 +1,0 @@
-{
-  "acestudio": {
-    "command": "/Applications/ACE Studio.app/Contents/Helpers/ace_mcp_server",
-    "args": ["--stdio"]
-  }
-}
