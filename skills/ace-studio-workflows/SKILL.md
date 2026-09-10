@@ -1,9 +1,39 @@
 ---
 name: ace-studio-workflows
-description: "Recommended end-to-end workflows in ACE Studio — the order to run features in, which feature to reach for at each step, and where the work has to leave Studio for an external tool. Covers reworking a song from an imported audio file (beat alignment, stem splitting, transcription back to MIDI) and turning a finished project into printable sheet music. Load whenever the user's request spans more than one step, or starts with 'I have this audio and I want to…' / 'I need a score for this'. Pair with `ace-studio-features` for what each feature does."
+description: "Recommended end-to-end workflows in ACE Studio — the order to run features in, which feature to reach for at each step, and where the work has to leave Studio for an external tool. Covers generating a whole song and aligning the project to it, reworking a song from an imported audio file (beat alignment, stem splitting, transcription back to MIDI), and turning a finished project into printable sheet music. Load whenever the user's request spans more than one step, or says things like 'write me a song', 'I have this audio and I want to…', or 'I need a score for this'. Pair with `ace-studio-features` for what each feature does."
 ---
 
 # ACE Studio workflows
+
+# Song generation
+
+When the user wants a whole song generated, use **Inspire Me**.
+
+## 1. Generate
+
+See `ace-studio-features` for what Inspire Me takes and what it costs.
+
+## 2. Align the project tempo to the result
+
+Do this before any editing — an unaligned project makes every later edit fight
+the grid. Which way you go depends on what else is on the timeline, because
+**applying a tempo replaces the project's tempo and meter wholesale and moves
+existing content.**
+
+- **The generated audio is the only thing on the timeline.** Nothing can be
+  disturbed, so apply its tempo to the project directly.
+
+- **The timeline already has other content.** Ask the user first: confirm which
+  version of the music they are keeping, and that it is the one the tempo should
+  follow. Then apply that one's tempo. Everything already on the timeline will
+  shift, so say so before you do it.
+
+## 3. Offer to keep going
+
+Ask whether they want to edit the song. If they do, the first workflow below is
+the route in — split it into stems and transcribe the parts they want to change.
+
+---
 
 # Edit a song from audio
 
