@@ -218,6 +218,11 @@ vocals; it cannot correctly resolve stacked, multi-part vocals.
 The V2 model can pull the lead vocal's lyrics and melody straight out of a
 complete song, and holds up well against background noise.
 
+**Expect some notes to come back at the wrong pitch, and fix them before the
+clip is used.** A single note is not enough to judge — a drifting note and a
+deliberate accidental look the same in isolation. Read the melody as a whole,
+work out what key it is actually in, and correct the notes that fall outside it.
+
 ### Doubles
 
 Vocal Synth tracks and AI Instrument tracks support doubles.
