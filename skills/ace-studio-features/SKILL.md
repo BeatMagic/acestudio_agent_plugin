@@ -162,6 +162,20 @@ minute**. There are three:
   the specified sample from the prompt. The result fits what is already on the
   timeline — a bass line, a drum part, a lush string passage.
 
+### How to prompt Add A Layer
+
+**Choose custom mode.** Then write two short prompts, one per field:
+
+- **Instrument** — the instrument and its timbre.
+- **Styles** — the musical content: style, emotional colour, layering and
+  dynamics, and the groove and physical feel of the playing.
+
+Keep both short. **Do not describe rhythm or chords** — the surrounding audio is
+uploaded as reference, so the model already has the harmony and the groove;
+restating them adds nothing. And **do not pile up negative prompts**: this model
+is built for synthesising a single timbre, so by default it does not need to be
+told what to avoid.
+
 # Utilities
 
 ### Stem Splitter
