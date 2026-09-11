@@ -45,7 +45,9 @@ tracks waiting to be filled.
   models one acoustic space and places the unison speakers at different
   positions within it. Turn it on only when the track plays a background role.
 
-- **To deactivate an effect, turn it off — do not bypass it.**
+- **To deactivate an effect, turn it off — do not bypass it.** Not every
+  effect has a bypass; all of them can be turned off. Reaching for bypass
+  works on some and fails on others, so it is never the reliable choice.
 
 # Vocal Synth, AI Instruments, and instrument plugins
 
