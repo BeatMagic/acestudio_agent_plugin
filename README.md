@@ -55,7 +55,7 @@ For harnesses we ship no plugin for, install the skills with the [skills](https:
 npx skills add BeatMagic/acestudio_agent_plugin
 ```
 
-Updates on this route are manual: `npx skills check` shows what is out of date, then `npx skills update` pulls it. The plugin routes above update without re-installing.
+Updates on this route are manual: `npx skills check` shows what is out of date, then `npx skills update` pulls it.
 
 <details>
 <summary>Manual copy</summary>
