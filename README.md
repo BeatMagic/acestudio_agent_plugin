@@ -2,9 +2,9 @@
 
 # ACE Studio agent skills
 
-[![license: MIT](https://img.shields.io/badge/license-MIT-5D59FF)](LICENSE)
-[![plugin for: Claude Code](https://img.shields.io/badge/plugin%20for-Claude%20Code-D97757)](#claude-code)
-[![plugin for: Codex](https://img.shields.io/badge/plugin%20for-Codex-10A37F)](#codex)
+[![license: MIT](https://img.shields.io/badge/license-MIT-5D59FF?style=flat-square)](LICENSE)
+[![Claude Code | Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-D77757?style=flat-square)](#claude-code)
+[![Codex | Plugin](https://img.shields.io/badge/Codex-Plugin-0180F7?style=flat-square)](#codex)
 [![skills.sh](https://skills.sh/b/BeatMagic/acestudio_agent_plugin)](https://skills.sh/BeatMagic/acestudio_agent_plugin)
 
 Official agent skills for [ACE Studio](https://www.acestudio.ai), the all-in-one AI music studio. Installed in Claude Code or Codex through a plugin, or in any skills-capable agent through the [skills](https://skills.sh) CLI, they let the agent create and edit a music project through ACE Studio's CLI and MCP surface: tracks, vocals, instruments, effects, stems, and exports.
@@ -55,7 +55,7 @@ For harnesses we ship no plugin for, install the skills with the [skills](https:
 npx skills add BeatMagic/acestudio_agent_plugin
 ```
 
-Updates on this route are manual: `npx skills check` shows what is out of date, then `npx skills update` pulls it. The plugin routes above update without re-installing.
+Updates on this route are manual: `npx skills check` shows what is out of date, then `npx skills update` pulls it.
 
 <details>
 <summary>Manual copy</summary>
