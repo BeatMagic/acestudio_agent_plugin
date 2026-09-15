@@ -145,8 +145,10 @@ use for it:**
 # Generative Kits
 
 Every generative kit takes a prompt and produces audio. Generation takes **over a
-minute**. **Inspire Me** and **Music Enhancer** keep past generations in a
-history you can reuse.
+minute**, and only **Add A Layer** puts its result on the timeline by itself —
+**Inspire Me** and **Music Enhancer** give you a result to bring in, and keep
+their past generations in a history you can reuse. The surface's docs carry the
+mechanics.
 
 There are three:
 
