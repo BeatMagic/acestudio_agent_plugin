@@ -1,43 +1,19 @@
 ---
 name: ace-studio-setup
-description: "Connect an agent to ACE Studio when it is not connected yet — the skills are installed but ACE Studio does not answer, the CLI is unavailable, or the MCP server is not registered. Load when the user wants to do something in ACE Studio and no working connection exists, including \"I installed the plugin but it is not connected\", or when a command fails because the ACE Studio surface is unreachable."
+description: "Connect an agent to ACE Studio when the plugin is installed but the connection was skipped — you have no `acestudio-cli` path and no ACE Studio MCP server among your tools. Load only in that case: it tells you the connection is a separate step, so you point the user at ACE Studio's own connect flow instead of trying to work without a surface."
 ---
 
 # Connect to ACE Studio
 
-Installing this plugin gives the agent know-how. It does not connect the agent to
-ACE Studio — that is a separate step, and no skill works without it.
+The skills in this plugin are know-how. They do not connect you to ACE Studio —
+that is a separate, built-in step, and without it none of them can act.
 
-## 1. Diagnose
+If you do not know where `acestudio-cli` lives, and no ACE Studio MCP server
+appears among your tools, that step was skipped: the user installed the plugin
+but never connected it.
 
-Check what is actually missing before changing any configuration:
-
-- **Is ACE Studio running?** The CLI and the MCP server both talk to a running
-  Studio, so a closed Studio looks exactly like a broken connection. Ask the
-  user to open it.
-- **Is the tool there?** Look for the CLI — and the MCP server — at the default
-  locations for the platform, listed in the
-  [External Agent Access](https://docs.acestudio.ai/ai-agent/external-agent-access)
-  docs.
-- **Does anything answer?** If a CLI command or an MCP call already returns
-  project information, the connection works. Stop here.
-
-## 2. Connect
-
-Prefer the **CLI**: it is the direct route and needs no harness configuration.
-When the CLI is unavailable — missing, or blocked by sandboxing or permissions —
-register the **MCP server** instead, under the name `ace-studio` at user/global
-scope, so it is available in every project.
-
-- **Not at a default location.** Ask the user to open **Preferences → General →
-  External Agent Access** and copy the path it offers for the CLI binary or the
-  MCP server. Do not guess an install path.
-- **Harness cannot self-configure.** If you cannot run commands or edit your own
-  configuration, walk the user through **Path B** in the docs.
-- **Keep the working path** where you hold durable instructions, so later
-  sessions skip the search.
-
-## 3. Confirm
-
-Ask ACE Studio for the current project information. Tempo, key and track list
-coming back is the completion criterion — the connection works.
+The connection is made in ACE Studio, not here. **Connect to Agents** in the app,
+and the
+[External Agent Access](https://docs.acestudio.ai/ai-agent/external-agent-access)
+docs, are the authority — they carry the routes and the default binary locations.
+Point the user there before trying to answer anything about their project.
