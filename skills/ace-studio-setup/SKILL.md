@@ -1,6 +1,6 @@
 ---
 name: ace-studio-setup
-description: "Guide how to connect to ACE Studio when you did not find its CLI/MCP tools."
+description: "Guide how to connect to ACE Studio if you didn't find tools (cli/mcp)."
 ---
 
 # Connect to ACE Studio
