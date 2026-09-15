@@ -3,7 +3,8 @@
 # ACE Studio agent skills
 
 [![license: MIT](https://img.shields.io/badge/license-MIT-5D59FF)](LICENSE)
-[![plugin for: Claude Code · Codex](https://img.shields.io/badge/plugin%20for-Claude%20Code%20%C2%B7%20Codex-5D59FF)](#install-the-skills)
+[![plugin for: Claude Code](https://img.shields.io/badge/plugin%20for-Claude%20Code-D97757)](#claude-code)
+[![plugin for: Codex](https://img.shields.io/badge/plugin%20for-Codex-10A37F)](#codex)
 [![skills.sh](https://skills.sh/b/BeatMagic/acestudio_agent_plugin)](https://skills.sh/BeatMagic/acestudio_agent_plugin)
 
 Official agent skills for [ACE Studio](https://www.acestudio.ai), the all-in-one AI music studio. Installed in Claude Code or Codex through a plugin, or in any skills-capable agent through the [skills](https://skills.sh) CLI, they let the agent create and edit a music project through ACE Studio's CLI and MCP surface: tracks, vocals, instruments, effects, stems, and exports.
