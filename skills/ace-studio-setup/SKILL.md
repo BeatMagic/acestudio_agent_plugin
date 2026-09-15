@@ -1,6 +1,6 @@
 ---
 name: ace-studio-setup
-description: "Connect ACE Studio when the plugin is installed but not connected — you have no `acestudio-cli` and no ACE Studio MCP server."
+description: "Connect ACE Studio when the plugin is installed but the connection was skipped — no `acestudio-cli` path and no ACE Studio MCP server. The skills cannot act without it; send the user to ACE Studio's own connect flow."
 ---
 
 # Connect to ACE Studio
