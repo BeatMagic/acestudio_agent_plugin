@@ -208,10 +208,3 @@ routine issues yourself; do not ask the user about every spacing adjustment.
 
 Describe the result honestly: say what you verified and what you did not. Call it
 a playable arrangement unless you actually have evidence for note-level fidelity.
-
----
-
-*The Basic Pitch and MuseScore practice above is adapted from the
-[To-Sheet-Music-Skill](https://github.com/kiri603/To-Sheet-Music-Skill)
-reference, narrowed to the steps that apply when the material already lives in
-an ACE Studio project.*

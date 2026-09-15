@@ -45,9 +45,9 @@ tracks waiting to be filled.
   models one acoustic space and places the unison speakers at different
   positions within it. Turn it on only when the track plays a background role.
 
-- **To deactivate an effect, turn it off — do not bypass it.** Not every
-  effect has a bypass; all of them can be turned off. Reaching for bypass
-  works on some and fails on others, so it is never the reliable choice.
+- **To take an effect out of the chain, deactivate (disable) it — do not bypass
+  it.** Bypass is for comparing a plugin in context, a listening call an agent
+  does not make.
 
 # Vocal Synth, AI Instruments, and instrument plugins
 
@@ -205,11 +205,9 @@ Four ways to split:
 Converts a monophonic vocal on the timeline into a vocal or instrument audio in a
 chosen timbre.
 
-It ships a preset voice library, **but the CLI and MCP cannot query its speakers
-yet.** For now, go on what the wiki says and guide the user to do it themselves.
-
-If the user wants to convert audio into their own timbre, guide them to train
-their own Voice Changer model.
+A set of preset **models** is included to cover a wide range of creative needs,
+and the surface lists every model a conversion can use. When the user needs a
+timbre outside it, guide them to train their own Voice Changer model.
 
 Training input is usually a vocal, but in practice it also accepts instrument
 audio with a clear timbre — which must also be monophonic.
@@ -251,9 +249,5 @@ lands on the nearest bar line.
 
 ### Importing files
 
-The file types Studio can import onto the timeline are:
-
-- MIDI (including MIDI carrying lyrics)
-- Audio
-- MusicXML
-- Video
+Studio imports the common formats onto the timeline — MIDI, audio, MusicXML and
+video among them. The surface's docs carry the full extension list.
