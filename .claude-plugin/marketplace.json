@@ -1,0 +1,15 @@
+{
+  "name": "acestudio",
+  "description": "Skills for agents operating ACE Studio.",
+  "owner": {
+    "name": "Timedomain Inc.",
+    "url": "https://www.acestudio.ai"
+  },
+  "plugins": [
+    {
+      "name": "acestudio",
+      "source": "./",
+      "description": "Skills for agents operating ACE Studio: what each feature does and the order to run workflows in."
+    }
+  ]
+}
