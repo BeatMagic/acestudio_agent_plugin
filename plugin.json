@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "acestudio",
+  "description": "Skills for agents operating ACE Studio: what each feature does and the order to run workflows in.",
+  "author": {
+    "name": "Timedomain Inc.",
+    "url": "https://www.acestudio.ai"
+  },
+  "homepage": "https://www.acestudio.ai",
+  "repository": "https://github.com/BeatMagic/acestudio_agent_plugin",
+  "license": "MIT",
+  "keywords": ["acestudio", "daw", "music", "skills"]
+}
