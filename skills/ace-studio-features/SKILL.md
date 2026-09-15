@@ -210,9 +210,9 @@ Four ways to split:
 Converts a monophonic vocal on the timeline into a vocal or instrument audio in a
 chosen timbre.
 
-It ships a preset library of **models**, and the surface lists every model it can
-convert with. If the user wants a timbre that is not in the library, guide them
-to train their own Voice Changer model.
+A set of preset **models** is included to cover a wide range of creative needs,
+and the surface lists every model a conversion can use. When the user needs a
+timbre outside it, guide them to train their own Voice Changer model.
 
 Training input is usually a vocal, but in practice it also accepts instrument
 audio with a clear timbre — which must also be monophonic.
