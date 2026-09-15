@@ -56,11 +56,14 @@ npx skills add BeatMagic/acestudio_agent_plugin
 
 Updates on this route are manual: `npx skills check` shows what is out of date, then `npx skills update` pulls it. The plugin routes above update without re-installing.
 
-### Manual copy
+<details>
+<summary>Manual copy</summary>
 
 Copy the folders under [`skills/`](skills/) into `~/.agents/skills/`, or into your harness's own skills folder if it has one.
 
 Manually copied skills do not update with the repository.
+
+</details>
 
 ## Scope and limitations
 
