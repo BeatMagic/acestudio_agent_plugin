@@ -13,11 +13,10 @@ When the user wants a whole song generated, use **Inspire Me**.
 
 See `ace-studio-features` for what Inspire Me takes and what it costs.
 
-## 2. Wait for the job, then place the result
+## 2. Bring the result onto the timeline
 
-The launch returns a job, not audio. Wait for it to settle, then fetch and place
-the result on the timeline — there is nothing to align until it is placed. The
-surface's docs carry the job mechanics.
+Generation does not put audio on the timeline for you — bring the result in
+before aligning anything to it. The surface's docs carry the mechanics.
 
 ## 3. Align the project tempo to the result
 

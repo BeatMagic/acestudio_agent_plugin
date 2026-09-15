@@ -145,13 +145,10 @@ use for it:**
 # Generative Kits
 
 Every generative kit takes a prompt and produces audio. Generation takes **over a
-minute**, so a launch is asynchronous: it returns a job, not audio. **Inspire Me**
-and **Music Enhancer** stage their results into the session history, and a result
-reaches the timeline only after it is fetched and placed; **Add A Layer** delivers
-directly and places itself. The two staged kits also keep an account-scoped
-history of past generations — from earlier sessions and other machines — so a
-result is reused without regenerating it. The surface's docs carry the job and
-history mechanics.
+minute**, and only **Add A Layer** puts its result on the timeline by itself —
+**Inspire Me** and **Music Enhancer** give you a result to bring in, and keep
+their past generations in a history you can reuse. The surface's docs carry the
+mechanics.
 
 There are three:
 
@@ -213,9 +210,8 @@ Four ways to split:
 Converts a monophonic vocal on the timeline into a vocal or instrument audio in a
 chosen timbre.
 
-It ships a preset library of **models**, and the surface lists the whole roster —
-every model a conversion accepts, across the Voices, Instruments and Cloned
-pages. The surface's docs carry the listing.
+It ships a preset library of **models**, and the surface lists the whole roster.
+The surface's docs carry the listing.
 
 If the user wants to convert audio into their own timbre, guide them to train
 their own Voice Changer model.
