@@ -13,12 +13,7 @@ When the user wants a whole song generated, use **Inspire Me**.
 
 See `ace-studio-features` for what Inspire Me takes and what it costs.
 
-## 2. Bring the result onto the timeline
-
-Generation does not put audio on the timeline for you — bring the result in
-before aligning anything to it. The surface's docs carry the mechanics.
-
-## 3. Align the project tempo to the result
+## 2. Align the project tempo to the result
 
 Do this before any editing — an unaligned project makes every later edit fight
 the grid. Which way you go depends on what else is on the timeline, because
@@ -33,7 +28,7 @@ existing content.**
   follow. Then apply that one's tempo. Everything already on the timeline will
   shift, so say so before you do it.
 
-## 4. Offer to keep going
+## 3. Offer to keep going
 
 Ask whether they want to edit the song. If they do, the first workflow below is
 the route in — split it into stems and transcribe the parts they want to change.
