@@ -208,10 +208,8 @@ Four ways to split:
 ### Voice Changer
 
 Converts a monophonic vocal on the timeline into a vocal or instrument audio in a
-chosen timbre.
-
-It ships a preset library of **models**, and the surface lists the whole roster.
-The surface's docs carry the listing.
+chosen timbre. The timbres are a preset library of **models**, listed on the
+surface; the docs carry the mechanics.
 
 If the user wants to convert audio into their own timbre, guide them to train
 their own Voice Changer model.
