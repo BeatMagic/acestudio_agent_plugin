@@ -1,6 +1,6 @@
 ---
 name: ace-studio-setup
-description: "Connect an agent to ACE Studio when the plugin is installed but the connection was skipped — you have no `acestudio-cli` path and no ACE Studio MCP server among your tools. Load only in that case: it tells you the connection is a separate step, so you point the user at ACE Studio's own connect flow instead of trying to work without a surface."
+description: "Connect ACE Studio when the plugin is installed but not connected — you have no `acestudio-cli` and no ACE Studio MCP server."
 ---
 
 # Connect to ACE Studio
