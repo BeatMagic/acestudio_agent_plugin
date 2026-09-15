@@ -13,7 +13,13 @@ When the user wants a whole song generated, use **Inspire Me**.
 
 See `ace-studio-features` for what Inspire Me takes and what it costs.
 
-## 2. Align the project tempo to the result
+## 2. Wait for the job, then place the result
+
+The launch returns a job, not audio. Wait for it to settle, then fetch and place
+the result on the timeline — there is nothing to align until it is placed. The
+surface's docs carry the job mechanics.
+
+## 3. Align the project tempo to the result
 
 Do this before any editing — an unaligned project makes every later edit fight
 the grid. Which way you go depends on what else is on the timeline, because
@@ -28,7 +34,7 @@ existing content.**
   follow. Then apply that one's tempo. Everything already on the timeline will
   shift, so say so before you do it.
 
-## 3. Offer to keep going
+## 4. Offer to keep going
 
 Ask whether they want to edit the song. If they do, the first workflow below is
 the route in — split it into stems and transcribe the parts they want to change.
@@ -208,10 +214,3 @@ routine issues yourself; do not ask the user about every spacing adjustment.
 
 Describe the result honestly: say what you verified and what you did not. Call it
 a playable arrangement unless you actually have evidence for note-level fidelity.
-
----
-
-*The Basic Pitch and MuseScore practice above is adapted from the
-[To-Sheet-Music-Skill](https://github.com/kiri603/To-Sheet-Music-Skill)
-reference, narrowed to the steps that apply when the material already lives in
-an ACE Studio project.*

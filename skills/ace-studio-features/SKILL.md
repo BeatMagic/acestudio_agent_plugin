@@ -45,9 +45,9 @@ tracks waiting to be filled.
   models one acoustic space and places the unison speakers at different
   positions within it. Turn it on only when the track plays a background role.
 
-- **To deactivate an effect, turn it off — do not bypass it.** Not every
-  effect has a bypass; all of them can be turned off. Reaching for bypass
-  works on some and fails on others, so it is never the reliable choice.
+- **To take an effect out of the chain, turn it off — do not bypass it.**
+  Bypass is for comparing a plugin in context, a listening call an agent does
+  not make.
 
 # Vocal Synth, AI Instruments, and instrument plugins
 
@@ -145,7 +145,15 @@ use for it:**
 # Generative Kits
 
 Every generative kit takes a prompt and produces audio. Generation takes **over a
-minute**. There are three:
+minute**, so a launch is asynchronous: it returns a job, not audio. **Inspire Me**
+and **Music Enhancer** stage their results into the session history, and a result
+reaches the timeline only after it is fetched and placed; **Add A Layer** delivers
+directly and places itself. The two staged kits also keep an account-scoped
+history of past generations — from earlier sessions and other machines — so a
+result is reused without regenerating it. The surface's docs carry the job and
+history mechanics.
+
+There are three:
 
 - **Inspire Me** — text to song. Use this when the user wants to generate a whole
   song outright.
@@ -205,8 +213,9 @@ Four ways to split:
 Converts a monophonic vocal on the timeline into a vocal or instrument audio in a
 chosen timbre.
 
-It ships a preset voice library, **but the CLI and MCP cannot query its speakers
-yet.** For now, go on what the wiki says and guide the user to do it themselves.
+It ships a preset library of **models**, and the surface lists the whole roster —
+every model a conversion accepts, across the Voices, Instruments and Cloned
+pages. The surface's docs carry the listing.
 
 If the user wants to convert audio into their own timbre, guide them to train
 their own Voice Changer model.
@@ -251,9 +260,5 @@ lands on the nearest bar line.
 
 ### Importing files
 
-The file types Studio can import onto the timeline are:
-
-- MIDI (including MIDI carrying lyrics)
-- Audio
-- MusicXML
-- Video
+Studio imports the common formats onto the timeline — MIDI, audio, MusicXML and
+video among them. The surface's docs carry the full extension list.
