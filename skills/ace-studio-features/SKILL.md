@@ -45,9 +45,9 @@ tracks waiting to be filled.
   models one acoustic space and places the unison speakers at different
   positions within it. Turn it on only when the track plays a background role.
 
-- **To take an effect out of the chain, deactivate it — do not bypass it.**
-  Bypass is for comparing a plugin in context, a listening call an agent does
-  not make.
+- **To take an effect out of the chain, deactivate (disable) it — do not bypass
+  it.** Bypass is for comparing a plugin in context, a listening call an agent
+  does not make.
 
 # Vocal Synth, AI Instruments, and instrument plugins
 
