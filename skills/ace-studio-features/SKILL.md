@@ -132,15 +132,9 @@ When the user wants a particular sound:
 - If it is an acoustic instrument, look through the AI Instrument list first.
 - Then look through the user's own plugin list for something suitable.
 
-**Loading and controlling plugins is on the surface — you do not need computer
-use for it:**
-
-- The VST parameters a plugin exposes can be read and set directly.
-- Where something cannot be reached through VST parameters, the surface offers a
-  view of the plugin's current interface plus the ability to click it. To load a
-  Kontakt library, for instance, locate it in the view and then click to load.
-- Studio can store presets at the host level, but a plugin's own internal presets
-  can only be driven through the visual channel.
+**Once a plugin is loaded, it is fully drivable — parameters, whole state and
+presets, and its own interface through Studio's built-in computer use.** See
+`ace-studio-audio-plugins` for how to drive it, and for per-plugin recipes.
 
 # Generative Kits
 

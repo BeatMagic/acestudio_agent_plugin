@@ -15,6 +15,7 @@ Connecting to ACE Studio is a separate step from installing the skills: point th
 - Skills are the orchestrator layer: workflow order, when to reach for what, why, decision heuristics, handoff to external tools. CLI/MCP mechanics (syntax, arguments, enums) live in `help` and `get_docs`, and a skill points at them rather than restating them.
 - Examples live in the CLI/MCP docs too; a skill carries one only when it is compact and stable.
 - Skill text is harness-agnostic: the `SKILL.md` convention only, with no Claude Code or Codex specific mechanism.
+- `ace-studio-audio-plugins` owns plugin control; per-plugin recipes live in its `references/` folder, one file per plugin, and land only once verified against the plugin's real UI.
 
 ## Release and delivery
 
