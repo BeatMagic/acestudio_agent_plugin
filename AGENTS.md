@@ -6,9 +6,9 @@ Know-how for agents that operate [ACE Studio](https://www.acestudio.ai): the *ho
 
 ## Installing this for a user
 
-Install the plugin on Claude Code or Codex, or copy the `skills/` folders into the user's harness skills folder. Install and update mechanics live in [README.md](README.md).
+Install the plugin on Claude Code or Codex; any other harness takes the [skills](https://skills.sh) CLI. Install and update mechanics live in [README.md](README.md).
 
-Connecting to ACE Studio is a separate step from installing the skills: point the user at the app's **Connect to Agents** entry or the [External Agent Access](https://docs.acestudio.ai/ai-agent/external-agent-access) docs.
+Connecting to ACE Studio is a separate step from installing the skills: if you do not see the CLI or MCP tools available to you, point the user at the app's **Connect to Agents** entry or the [External Agent Access](https://docs.acestudio.ai/ai-agent/external-agent-access) docs.
 
 ## Working on the content
 

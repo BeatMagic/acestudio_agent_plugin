@@ -24,7 +24,7 @@ Or read the [External Agent Access](https://docs.acestudio.ai/ai-agent/external-
 Paste this into your agent; it picks the right route for the harness it is running in:
 
 ```text
-Install this ACE Studio agent plugin so I can connect ACE Studio with you. Check if there's a plugin for your harness and use it if available; otherwise install the skills with `npx skills add BeatMagic/acestudio_agent_plugin`. Then help me set up the CLI/MCP connection so we can actually connect.
+Install ACE Studio agent plugin/skills from https://github.com/BeatMagic/acestudio_agent_plugin so I can connect ACE Studio with you. See its AGENTS.md for the instructions. Then help me set up the CLI/MCP connection if you didn't get it now.
 ```
 
 The routes below are for reference or if you prefer doing things by hand. They only install the skills; the CLI/MCP connection still has to be set up separately (see [Quick start](#quick-start)).
