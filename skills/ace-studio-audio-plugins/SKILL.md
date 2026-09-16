@@ -29,6 +29,6 @@ it is the surface the plugin was hosted into.
 
 Per-plugin knowledge — which controls matter, canonical editor sizes, UI quirks
 — is a worked recipe under this skill's `references/` folder. Read the plugin's
-recipe when one exists before improvising against its UI.
+recipe when one exists before driving the plugin.
 
 The surface's docs carry the exact verbs, arguments and errors.
