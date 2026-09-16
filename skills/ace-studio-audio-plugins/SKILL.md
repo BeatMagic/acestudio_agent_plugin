@@ -31,5 +31,4 @@ Per-plugin knowledge — which controls matter, canonical editor sizes, UI quirk
 — is a worked recipe under this skill's `references/` folder. Read the plugin's
 recipe when one exists before improvising against its UI.
 
-Exact verbs, arguments and errors live in the surface docs: `help audio-plugin
-editor` (CLI) or `get_docs` with path `audio-plugin editor`.
+The surface's docs carry the exact verbs, arguments and errors.
