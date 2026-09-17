@@ -84,7 +84,6 @@ finished before playback even starts.
 
 - Without pre-rendering, rendering is triggered by playback.
 - With pre-rendering, rendering is triggered by the edit.
-- During playback, a region that has not finished rendering blocks playback.
 
 ### AI Instrument
 
@@ -99,10 +98,8 @@ is not what the model outputs.**
 Violins II, Violas, Celli and Basses. These support polyphony well, but keep the
 written part idiomatic for the section it is on.
 
-AI Instruments render in the cloud, with no turbo mode and no pre-rendering.
-
-- Rendering is triggered by playback.
-- During playback, a region that has not finished rendering blocks playback.
+AI Instruments render in the cloud, with no turbo mode and no pre-rendering, so
+rendering is always triggered by playback.
 
 **Every other instrument is a solo instrument.** You can feed them polyphonic
 material, but they do not behave the way a sample library does:
@@ -122,6 +119,15 @@ must be set explicitly:
 
 - Pizzicato
 - Mute
+
+### Rendering — Vocal Synth and AI Instruments alike
+
+Whatever triggers a render, **it only starts on a track that can currently be
+heard.** A muted track makes no sound, and neither does any track while another
+track is soloed — and a silent track never renders. If nothing is rendering,
+check mute and solo before anything else.
+
+During playback, a region that has not finished rendering blocks playback.
 
 ### Instrument plugins
 
